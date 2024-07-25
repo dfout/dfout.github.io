@@ -8058,6 +8058,14 @@ textarea.form-control-lg {
   letter-spacing: 0.2rem;
 }
 
+.text-about{
+  --bs-text-opacity: 1;
+
+  font-size: 18pt;
+  font-weight: 215;
+  letter-spacing: 0.2rem;
+}
+
 .text-success {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
@@ -11058,5 +11066,5 @@ html {
 }
 
 .copyright {
-  background-color: lightgray;
+  background-color: rgb(21,19,19);
 }
