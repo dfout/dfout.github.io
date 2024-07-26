@@ -359,6 +359,17 @@ textarea {
   line-height: inherit;
 }
 
+.button-cont{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding-top: 4rem;
+}
+#resume{
+  width: fit-content;
+  align-self:center;
+}
+
 button,
 select {
   text-transform: none;
@@ -11067,4 +11078,14 @@ html {
 
 .copyright {
   background-color: rgb(21,19,19);
+}
+
+.skills{
+  display:flex;
+  gap: 1.75rem;
+  align-items:center;
+  justify-content:center;
+  padding-top: 1rem;
+  list-style-type: none;
+  flex-wrap:wrap;
 }
