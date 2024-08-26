@@ -1847,6 +1847,23 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
+.img-cont{
+  /* width: 100px; */
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  position:relative;
+  background-color: blue;
+
+}
+#pfp{
+  height: 200px;
+  width:auto;
+  object-fit:cover;
+  /* border-radius: 30%; */
+}
+
 .table-secondary {
   --bs-table-color: #000;
   --bs-table-bg: #d5d8dc;
